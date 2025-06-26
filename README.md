@@ -1,2 +1,2 @@
 ﻿# InteractCX
-Weather Task completed npm run dev to run frontend and node server.js to run backend
+Weather Chatbot Task completed npm run dev to run frontend and node server.js to run backend
