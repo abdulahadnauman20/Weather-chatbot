@@ -1,0 +1,96 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 48vh;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f4f6fb;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(33, 150, 243, 0.08);
+  overflow: hidden;
+}
+
+.messages-container {
+  flex: 1 1 auto;
+  padding: 32px 18px 12px 18px;
+  overflow-y: auto;
+  background: #f4f6fb;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  max-height: none;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 16px 18px;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.message-bubble {
+  max-width: 70%;
+  margin-bottom: 16px;
+  padding: 14px 22px;
+  border-radius: 20px;
+  font-size: 1.08rem;
+  word-break: break-word;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.04);
+  display: inline-block;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  transition: box-shadow 0.2s;
+}
+
+.user-bubble {
+  background: linear-gradient(100deg, #1976d2 0%, #64b5f6 100%);
+  color: #fff;
+  align-self: flex-end;
+  margin-left: auto;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.bot-bubble {
+  background: #fff;
+  color: #1565c0;
+  align-self: flex-start;
+  margin-right: auto;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1.5px solid #e3f2fd;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f4f6fb;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.chat-outer-container {
+  border: 2.5px solid #1976d2;
+  border-radius: 22px;
+  max-width: 720px;
+  margin: 40px auto;
+  background: #e3f2fd;
+  box-shadow: 0 6px 32px rgba(33, 150, 243, 0.10);
+  overflow: hidden;
+}
+
+.chat-header {
+  background: #1976d2;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 18px 0 14px 0;
+  letter-spacing: 0.03em;
+  border-bottom: 2px solid #1565c0;
+} 
